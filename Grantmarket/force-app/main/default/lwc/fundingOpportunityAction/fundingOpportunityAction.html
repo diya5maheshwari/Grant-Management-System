@@ -1,0 +1,14 @@
+<template>
+    <template lwc:if={isLoading}>
+        <lightning-spinner alternative-text="Loading" size="small"></lightning-spinner>
+    </template>
+
+    <div class="action-container">
+        <lightning-button
+            variant="brand"
+            label={buttonLabel}
+            disabled={isLoading}
+            onclick={handleClick}>
+        </lightning-button>
+    </div>
+</template>

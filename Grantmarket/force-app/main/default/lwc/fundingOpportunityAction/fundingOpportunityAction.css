@@ -1,0 +1,7 @@
+.action-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: relative;
+    top: 4rem;
+}
